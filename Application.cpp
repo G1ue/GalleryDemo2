@@ -110,7 +110,7 @@ int Application::GetCommand() {
 
 }
 
-// Add a new record into the contents list and the event list. (to the favorite list is also possible)
+// Add a new record into the contents list and the event list. 
 int Application::AddContents() {
 
 	if (m_ContentsList.IsFull()) // If the list is full, don't add a new record, 
